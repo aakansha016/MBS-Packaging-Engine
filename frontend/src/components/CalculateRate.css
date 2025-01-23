@@ -1,0 +1,36 @@
+.calculate-container {
+    background-color: #f4ede4;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .calculate-container h2 {
+    font-family: "League Spartan", sans-serif;
+    color: #29304e;
+    margin-bottom: 1rem;
+  }
+  
+  .calculate-container .inputs input {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #acb3d3;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    background-color: #ffffff;
+  }
+  
+  .calculate-container .inputs input:focus {
+    outline: none;
+    border-color: #9da8c6;
+  }
+  
+  .rate-result {
+    font-size: 1.5rem;
+    color: #29304e;
+    margin-top: 1rem;
+  }
+  

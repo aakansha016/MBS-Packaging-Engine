@@ -1,0 +1,63 @@
+.search-container {
+    background-color: #f4ede4; /* Beige */
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .search-container h2 {
+    font-family: "League Spartan", sans-serif;
+    color: #29304e; /* Dark blue */
+    margin-bottom: 1rem;
+  }
+  
+  .filters input {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #acb3d3;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    background-color: #ffffff;
+  }
+  
+  .filters input:focus {
+    outline: none;
+    border-color: #9da8c6; /* Slightly darker */
+  }
+  
+  .search-btn {
+    background-color: #acb3d3; /* Text color for button */
+    color: #29304e; /* Dark blue text */
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-family: "League Spartan", sans-serif;
+  }
+  
+  .search-btn:hover {
+    background-color: #9da8c6; /* Darker shade */
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 1rem;
+  }
+  
+  .results-list {
+    margin-top: 5rem;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .results-list li {
+    font-size: 2.2rem;
+    color: #29304e; /* Dark blue */
+    margin: 0.5rem 0;
+  }
+  

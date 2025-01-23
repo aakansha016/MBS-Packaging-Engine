@@ -1,0 +1,118 @@
+/* General body styles */
+body {
+  background-color: #f4ede4; /* Off-white beige */
+  margin: 0;
+  font-family: "League Spartan", sans-serif;
+  color: #29304e; /* Dark blue */
+}
+
+/* General header styling */
+.header {
+  background-color: #29304e; /* Dark blue */
+  color: #acb3d3; /* Light beige */
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo and title container */
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navigation links */
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #acb3d3; /* Light beige */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(to right, #29304e, #4b6a94); /* Medieval blue gradient */
+  color: #f4ede4; /* Light beige text */
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-image {
+  width: 150px; /* Adjust width */
+  margin-bottom: 1.5rem; /* Space below the image */
+}
+
+.find-loan-btn {
+  background-color: #acb3d3; /* Light beige */
+  color: #29304e; /* Dark blue */
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+  font-family: "League Spartan", sans-serif;
+}
+
+.find-loan-btn:hover {
+  background-color: #9da8c6; /* Slightly darker beige */
+}
+
+
+
+/* Main content styling */
+main {
+  padding: 2rem;
+}
+
+/* Button styling */
+button {
+  background-color: #acb3d3; /* Light beige */
+  color: #29304e; /* Dark blue text */
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "League Spartan", sans-serif;
+}
+
+button:hover {
+  background-color: #9da8c6; /* Slightly darker beige */
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  margin-top: 1rem;
+}

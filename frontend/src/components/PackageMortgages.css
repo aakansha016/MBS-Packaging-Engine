@@ -1,0 +1,30 @@
+.package-container {
+    background-color: #f4ede4;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .package-container h2 {
+    font-family: "League Spartan", sans-serif;
+    color: #29304e;
+    margin-bottom: 1rem;
+  }
+  
+  .package-container p {
+    color: #29304e;
+    margin-bottom: 2rem;
+  }
+  
+  .results-list {
+    margin-top: 2rem;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .results-list li {
+    font-size: 1.2rem;
+    color: #29304e;
+    margin: 0.5rem 0;
+  }
+  
